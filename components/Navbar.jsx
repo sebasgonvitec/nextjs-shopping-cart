@@ -14,13 +14,13 @@ const Navbar = () => {
       <h6 className={styles.logo}>GamesKart</h6>
       <ul className={styles.links}>
         <li className={styles.navlink}>
-          <Link href="/">Home</Link>
+          <Link legacyBehavior href="/">Home</Link>
         </li>
         <li className={styles.navlink}>
-          <Link href="/shop">Shop</Link>
+          <Link legacyBehavior href="/shop">Shop</Link>
         </li>
         <li className={styles.navlink}>
-          <Link href="/cart">
+          <Link legacyBehavior href="/cart">
             <a>Cart ({getItemsCount()})</a>
           </Link>
         </li>
