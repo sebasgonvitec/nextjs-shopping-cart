@@ -5,7 +5,7 @@ import { getProducts } from './api/products/index';
 const ShopPage = ({ products }) => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>All Results</h1>
+      <h1 className={styles.title}>All Results Wololololo</h1>
       <div className={styles.cards}>
         {products.map((product) => (
           <ProductCard key={product.id} product={product} />
